@@ -1,0 +1,178 @@
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.stats__number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.logo__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.inner__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+span {
+  color: #40a2d5;
+}
+
+.container {
+  margin-left: 135px;
+  max-width: 1170px;
+}
+
+.header__wrapper {
+  position: relative;
+}
+
+.logo__text {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 153px;
+  color: #40a2d5;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  background: url("/src/img/header-img.png");
+  background-repeat: no-repeat;
+  width: 744px;
+  height: 933px;
+  right: 0;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.menu__list {
+  display: grid;
+  position: absolute;
+  grid-template-columns: repeat(4, 85px);
+  column-gap: 36px;
+  text-align: center;
+  margin-left: 135px;
+  margin-top: 24px;
+}
+
+.item__link {
+  color: white;
+  text-decoration: none;
+}
+
+.backfigur-1 {
+  position: absolute;
+  right: 586px;
+  margin-top: 147px;
+  z-index: 0;
+}
+
+.backfigur-2 {
+  display: flex;
+  position: absolute;
+  right: 116px;
+  margin-top: 770px;
+  z-index: 0;
+}
+
+.inner__content {
+  padding-left: 155px;
+  padding-top: 226px;
+}
+
+.inner__title {
+  max-width: 681px;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+.inner__text {
+  max-width: 535px;
+  margin-bottom: 40px;
+}
+
+.inner__button {
+  display: flex;
+  margin-bottom: 112px;
+}
+
+.button__link-explore {
+  box-sizing: border-box;
+  width: 214px;
+  height: 64px;
+  border: none;
+  border-radius: 40px 5px;
+  background: #40a2d5;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+
+.button__link-contact {
+  box-sizing: border-box;
+  width: 214px;
+  height: 64px;
+  border: 1px solid #40A2D5;
+  border-radius: 40px 5px;
+  background: white;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
+  color: #40a2d5;
+}
+
+.inner__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 165px);
+}
+
+.stats__number {
+  z-index: 1;
+  margin-bottom: 15px;
+}
+
+.stats__img-1, .stats__img-2, .stats__img-3 {
+  display: flex;
+  z-index: 0;
+  margin-bottom: -25px;
+}
+
+.backline {
+  width: 582px;
+  height: 608px;
+  position: absolute;
+  left: 0;
+  top: 70%;
+}
+
+.logos__inner {
+  padding-top: 74px;
+  padding-left: 82px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 147px;
+  text-align: center;
+}
+
+.logos__items {
+  margin-right: 100px;
+}
