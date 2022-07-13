@@ -9,6 +9,7 @@
     <title>CONSTRUCTION</title>
     <link rel="stylesheet" href="./src/css/normalize.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/buttons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -210,32 +211,37 @@
         </div>
             <div class="contact__inner">
                 <div class="form">
-                <form  class="form__element">
-                    <div class="form__group">
-                        <input input type="text" class="form__input" placeholder="Name">
-                        <label for="" class="form__lable ">Name</label>
-                        
-                    </div>
-                </form>
-                <form  class="form__element">
-                    <div class="form__group">
-                        <input input type="text" class="form__input" placeholder="Email">
-                        <label for="" class="form__lable ">Email</label>
-                        
-                    </div>
-                </form>
-                <form  class="form__element">
-                    <div class="form__group">
-                        <input input type="text" class="form__input" placeholder="Subject">
-                        <label for="" class="form__lable ">Subject</label>
-                    </div>
-                </form>
-                <form  class="form__element">
-                    <div class="form__group">
-                        <input input type="text" class="form__input" placeholder="Message">
-                        <label for="" class="form__lable ">Message</label> 
-                    </div>
-                </form>
+
+                    <div class="input-container ic1">
+                        <input id="Name" class="input" type="text" placeholder=" " />
+                        <div class="cut cut-1"></div>
+                        <label for="Name" class="placeholder">Name</label>
+                      </div>
+              
+              
+              
+                      <div class="input-container ic2">
+                        <input id="email" class="input" type="text" placeholder=" " />
+                        <div class="cut cut-2"></div>
+                        <label for="Email" class="placeholder">Email</label>
+                      </div>
+              
+              
+              
+                      <div class="input-container ic3">
+                        <input  class="input" type="text" placeholder=" " />
+                        <div class="cut cut-3"></div>
+                        <label for="#" class="placeholder">Subject</lable>
+                      </div>
+
+                      <div class="input-container ic4">    
+                        <textarea  class="input input-m" type="text" placeholder=" " cols="22" rows="2"></textarea>
+                        <div class="cut cut-4 "></div>
+                        <label for="#" class="placeholder">Message</lable>
+                      </div>
+
+
+
                 <div class="inner__button"><a class="button__link-explore" href="">Send Massage</a>
                 </div>
             </div>
@@ -244,9 +250,89 @@
         </div>
 </section>
 
+<section class="blog">
+    <div class="container">
+        <div class="blog__wrapper">
+            <h1 class="blog__title">
+                Lattest Blogs
+            </h1>
+            <p class="blog__text">
+                Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.
+            </p>
+            <div class="blog__list">
+                <div class="list__element c1">
+                    <div class="element__content">
+                        <h4 class="element__title">
+                            Unleash Your Creativity
+                        </h4>
+                        <p class="element__text">Nine for Mortal Men, doomed to die, One for</p>
+                    </div>
+                </div>
+                <div class="list__element c2">
+                    <div class="element__content">
+                        <h4 class="element__title">
+                            Unleash Your Creativity
+                        </h4>
+                        <p class="element__text">Nine for Mortal Men, doomed to die, One for</p>
+                        <div class="inner__button inner__button-blog"><a class="button__link-read-more" href="">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="sub">
+    <div class="container">
+        <div class="sub__wrapper">
+            <h1 class="sub__title">Subscribe to our
+                Newsletter</h1>
+            <p class="sub__text">Age sold some full like rich new. Amounted repeated as believed in confined juvenile.</p>
+            <div class="inner__button-sub "><a class="button__link-explore " href="">Subscribe<img class="little-arrow" src="/src/img/little-arrow.svg" alt=""></a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+ <div class="container">
+    <div class="footer__inner">
+        <div class="footer__social">
+        <p class="logo">CONSTRUCTION</p>
+        <p class="social__text">You’ll find your next Home loan valu you prefer.</p>
+        <div class="link">
+            <img class="link__item" src="/src/img/social-1.svg" alt="">
+            <img class="link__item" src="/src/img/social-2.svg" alt="">
+            <img class="link__item" src="/src/img/social-3.svg" alt="">
+        </div>
+        </div>
+        <div class="footer__column">
+            <h2 class="footer__title">Resources</h2>
+                <a class="footer__element" href="">Our Agents</a>
+                <a class="footer__element" href="">Member Stories</a>
+                <a class="footer__element" href="">Video</a>
+                <a class="footer__element" href="">Free trial</a>
+        </div>
+        <div class="footer__column">
+            <h2 class="footer__title">Company</h2>
+                <a class="footer__element" href="">Patnerships</a>
+                <a class="footer__element" href="">Terms of use</a>
+                <a class="footer__element" href="">Privacy</a>
+                <a class="footer__element" href="">Sitemap</a>
+        </div>
+        <div class="footer__column footer__column-form ">
+            <h2 class="footer__title">Get in touch</h2>
+            
+                <form class="footer__form">
+                    <input id="Name" class="input input-ic5" type="text" placeholder=" " />
+                    <div class="cut cut-1"></div>
+                    <label for="email" class="placeholder placeholder-ic5">Enter your mail</label>
+                    <button class="footer__button" type="submit"><img class="button-img" src="/src/img/button.svg" alt="">
+                    </button>
+                  </form>
 
-
+        </div>
+    </div>
+ </div>
+</footer>
 
 
 <script src="./src/js/script.js"></script>
