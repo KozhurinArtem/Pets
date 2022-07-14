@@ -88,16 +88,45 @@ a {
 .menu__list {
   display: grid;
   position: absolute;
-  grid-template-columns: repeat(4, 85px);
+  grid-template-columns: repeat(4, 95px);
   column-gap: 36px;
   text-align: center;
-  margin-left: 135px;
+  margin-left: 125px;
   margin-top: 24px;
 }
 
 .item__link {
   color: white;
   text-decoration: none;
+}
+
+.item__link:hover{
+  font-size: 20px;
+}
+
+.list__item > .menudot {
+  opacity: 0;
+}
+
+.list__item:hover > .menudot {
+  opacity: 1;
+}
+
+.menudot{
+  height: 4px;
+  width: 4px;
+  border-radius:50px;
+  background: #fff;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  position: absolute;
+  opacity: 0  ;
+}
+
+
+.list__item {
+cursor: pointer;
 }
 
 .backfigur-1 {
@@ -255,7 +284,7 @@ a {
 .engin__slider {
   display: grid;
   grid-template-columns: repeat(3, 362px);
-  column-gap: 42px;
+  /* column-gap: 42px; */
 }
 
 .slider__element {
@@ -264,7 +293,7 @@ a {
   box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
   border-radius: 5px;
   padding-bottom: 60px;
-  height: 435px;
+  
 }
 
 .element__top {
@@ -305,13 +334,13 @@ a {
 }
 
 .profile-img {
-  margin-bottom: 22px;
-  height: 140px;
-  width: 140px;
+
+  height: 120px;
+  width: 120px;
 }
 
 .profile-name {
-  margin-bottom: 7px;
+
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -322,14 +351,14 @@ a {
   font-size: 12px;
   line-height: 12px;
   text-align: center;
-  margin-top: -5px;
+  margin-top: -10px;
   color: #6b6b6b;
 }
 
 .profile-phone {
   margin-top: 47px;
   color: #6b6b6b;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .profile-mail {

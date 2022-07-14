@@ -152,13 +152,19 @@
   .arrow--r {
     transform: rotate(180deg);
   }
-  
+
+  .arrow{
+    height: 10px;
+    width: 20px;
+
+  }
   .arrow--w-l {
     transform: rotate(180deg);
     position: absolute;
     display: flex;
     margin-top: -1px;
     opacity: 0;
+
   }
   
   .arrow--w-r {

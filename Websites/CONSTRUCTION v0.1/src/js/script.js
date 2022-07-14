@@ -1,4 +1,31 @@
 window.addEventListener('DOMContentLoaded', () => {
+
+ let dot = document.querySelector('.menudot');
+
+    var btns = document.querySelectorAll('.menu__list')
+    // Проходим по массиву
+    btns.forEach(function(btn) {
+      // Вешаем событие клик
+      btn.addEventListener('click', function(e) {
+        dot.style.opacity = '1';
+      })
+    })
+
+
+    // menu.addEventListener('click', e => {
+    //     console.dir(e.target)
+    // }) 
+
+
+
+
+
+
+
+
+
+
+
 document.querySelector('.button-l').onmouseenter = () => {
     
     document.querySelector('.button-l').style.background = '#40a2d5';
